@@ -1,0 +1,49 @@
+\BOOKMARK [0][-]{section*.1}{Table of Contents}{}% 1
+\BOOKMARK [0][-]{section*.3}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{Abstract}{}% 4
+\BOOKMARK [0][-]{chapter.7}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.8}{Motivation}{chapter.7}% 6
+\BOOKMARK [1][-]{section.9}{Scope of project}{chapter.7}% 7
+\BOOKMARK [1][-]{section.10}{Objectives}{chapter.7}% 8
+\BOOKMARK [1][-]{section.13}{Overview of dissertation}{chapter.7}% 9
+\BOOKMARK [0][-]{chapter.14}{Literature review}{}% 10
+\BOOKMARK [1][-]{section.15}{Research on web Mashups}{chapter.14}% 11
+\BOOKMARK [2][-]{subsection.19}{Mashup creation}{section.15}% 12
+\BOOKMARK [2][-]{subsection.20}{Mashup examples}{section.15}% 13
+\BOOKMARK [1][-]{section.21}{Mashup types}{chapter.14}% 14
+\BOOKMARK [1][-]{section.23}{Approaches to mashup development}{chapter.14}% 15
+\BOOKMARK [2][-]{subsection.24}{Widget based tools}{section.23}% 16
+\BOOKMARK [2][-]{subsection.25}{ Web technologies}{section.23}% 17
+\BOOKMARK [2][-]{subsection.26}{APIs and web services}{section.23}% 18
+\BOOKMARK [2][-]{subsection.27}{Screen scraping}{section.23}% 19
+\BOOKMARK [1][-]{section.28}{Problems with mashups}{chapter.14}% 20
+\BOOKMARK [1][-]{section.29}{Web scrapers vs web crawlers}{chapter.14}% 21
+\BOOKMARK [0][-]{chapter.30}{Design}{}% 22
+\BOOKMARK [1][-]{section.31}{Scraping techniques}{chapter.30}% 23
+\BOOKMARK [2][-]{subsection.32}{Using regular expressions}{section.31}% 24
+\BOOKMARK [2][-]{subsection.33}{Using DOM parsing}{section.31}% 25
+\BOOKMARK [2][-]{subsection.34}{Web Robot Programming}{section.31}% 26
+\BOOKMARK [1][-]{section.41}{Content Sources}{chapter.30}% 27
+\BOOKMARK [1][-]{section.44}{Mashup User Interface}{chapter.30}% 28
+\BOOKMARK [1][-]{section.47}{Scraping program}{chapter.30}% 29
+\BOOKMARK [2][-]{subsection.52}{Architecture}{section.47}% 30
+\BOOKMARK [0][-]{chapter.65}{Implementation and Testing}{}% 31
+\BOOKMARK [1][-]{section.66}{Implementation}{chapter.65}% 32
+\BOOKMARK [1][-]{section.67}{Testing}{chapter.65}% 33
+\BOOKMARK [1][-]{section.70}{Evaluation}{chapter.65}% 34
+\BOOKMARK [2][-]{subsection.71}{User 1}{section.70}% 35
+\BOOKMARK [2][-]{subsection.72}{User 2}{section.70}% 36
+\BOOKMARK [2][-]{subsection.73}{User 3}{section.70}% 37
+\BOOKMARK [2][-]{subsection.74}{User 4}{section.70}% 38
+\BOOKMARK [2][-]{subsection.75}{User 5}{section.70}% 39
+\BOOKMARK [0][-]{chapter.76}{Results and Discussion}{}% 40
+\BOOKMARK [1][-]{section.77}{Results}{chapter.76}% 41
+\BOOKMARK [1][-]{section.78}{Limitations and difficulties}{chapter.76}% 42
+\BOOKMARK [0][-]{chapter.79}{Conclusion}{}% 43
+\BOOKMARK [1][-]{section.80}{Future work}{chapter.79}% 44
+\BOOKMARK [1][-]{section.81}{Conclusion}{chapter.79}% 45
+\BOOKMARK [0][-]{section*.82}{Bibliography}{}% 46
+\BOOKMARK [0][-]{appendix.84}{Software used}{}% 47
+\BOOKMARK [0][-]{appendix.85}{Code Listing \205 main.py}{}% 48
+\BOOKMARK [0][-]{appendix.196}{Code Listing \205 restaurant\137sites.py}{}% 49

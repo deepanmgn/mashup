@@ -1,0 +1,20 @@
+{% if results %}
+{% for result in results %}
+<div class="item">
+  <div class="details">
+    <div class="result_title"><a>{{result.name}}</a>
+      <div class="classification"><div class="cover"></div><div class="progress" style="width:{{ result.rating|int * 20 }}%;"></div></div>
+    </div>
+    <div class="address"><img title="Address" width="35px" height="35px" style="padding-right:8px"src="/static/img/address_book.png">{{result.address}}</div>
+    <div class="cuisine"><img title="Cusine" width="35px" height="35px" src="/static/img/toast.png">{{result.cuisine}}</div>
+    <div class="phone"><img title="Phone" width="35px" height="35px" src="/static/img/phone.png">{{result.phone}}</div>
+    <div class="worktime wordwrap"><img title="Timings"width="35px" height="35px" src="/static/img/clock_blue.png">{{result.opening_times}}</div>
+    <div class="price"><img title="Average Prices" width="35px" height="35px" src="/static/img/pound.png"><b>Lunch:<span class="colorgreen">{{result.avg_lunch_price}}</span>
+      Dinner:<span class="colorgreen">{{result.avg_dinner_price}}</span></b></div>
+  </div>
+  <div class="map"><iframe width="750" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{result.google_map}}&amp;output=embed"></iframe></div>
+</div>
+{% endfor %}
+{% else %}
+<div id="no_results"> Search found 0 results</div>
+{% endif %}

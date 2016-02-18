@@ -1,0 +1,144 @@
+#center_title_container {
+    margin-top:200px;
+    margin-left:300px;
+}
+
+#center_title_container form {
+    left:100px;
+    padding:20px;
+}
+
+#center_title_container input[type="text"] {
+    height:30px;
+    padding:5px;
+    width:600px;
+    margin-left:-100px;
+    font-size:16px;
+}
+
+#center_title_container input[type="submit"] {
+    font-size:1.1em;
+    padding:7px;
+}
+
+#center_title {
+    color: royalblue;
+    font-size :4em;
+}
+
+#results_header {
+    padding-bottom:30px;
+    padding-top:30px;
+    background-color: royalblue;
+}
+
+#results_header_title {
+    color:white;
+    font-size :2em;
+    float:left;
+    padding-left:40px;
+}
+
+#search_header input[type="text"] {
+    margin-left:20px;
+    margin-right:10px;
+    height:25px;
+    padding:5px;
+    font-size:1.1em;
+    width:450px;
+}
+
+#search_header input[type="submit"] {
+    padding:10px;
+    font-size:1em;
+}
+
+#results {
+    padding-left:101px;
+}
+
+#no_results {
+    padding:20px;
+    font-size:xx-large;
+}
+
+
+.details div {
+    padding:5px;
+}
+
+.price b {
+    padding-left:5px;
+}
+
+
+.details img {
+    position:relative;
+    top:10px;
+}
+
+.map {
+    padding-top:20px;
+}
+
+.result_title {
+    font-size:1.5em;
+    color:royalblue;
+}
+
+#more {
+    padding-left:101px;
+    font-size:1.5em;
+    color:royalblue;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#spinner {
+    display:none;
+    position:fixed;
+    top:300px;
+    left:550px;
+}
+
+.item {
+    padding:20px;
+}
+
+
+.classification {
+    position: relative;
+    width: 91px;
+    height: 17px;
+}
+.classification .cover {
+    position: absolute;
+    background: transparent url(../img/stars.png) top left no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 91px;
+    height: 17px;
+    z-index: 101;
+    padding:0px;
+}
+.classification .progress {
+    position: absolute;
+    background: transparent url(../img/stars_full.png) top left no-repeat;
+    top: 0px;
+    left: 0px;
+    height: 17px;
+    z-index: 102;
+    padding:0px;
+}
+
+.colorgreen {
+    color:#748d36;
+}
+
+.wordwrap {
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}

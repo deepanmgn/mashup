@@ -1,0 +1,87 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+% space between paragraphs (has to be big since there's no indentation)
+\setlength{\parskip}{\bigskipamount}
+
+% indentation length
+\setlength{\parindent}{0pt}
+
+% setting leading (i.e., line spacing)
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+\usepackage[hypertexnames=false]{hyperref}
+\usepackage{listings}
+
+\usepackage{color}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+\hypersetup{
+  pdftitle={Design of semantic mashup for extracting restaurant data by scraping},
+  pdfauthor={Deepan Murugan},
+  pdfkeywords={ python, semantic mashup, screen scraping },
+  colorlinks=true,
+  linkcolor=black,
+  anchorcolor=black,
+  citecolor=black,
+  urlcolor=black,
+}
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\begin{titlepage}
+  \begin{center}
+    \textsc{\LARGE UNIVERSITY OF WARWICK}\\
+    \large Department of Computer Science\\[1.5cm]
+    
+    \textsc{\LARGE Design of a semantic mashup for extracting restaurant data by scraping}\\[1.5cm]
+    by\\[0.4cm]
+    \textsc{\Large Deepan Murugan}\\[1cm]
+    \large{\emph{Supervisor}: \textsc{\Large Dr. Alexandra I. Cristea}}\\[1.5cm]
+    \includegraphics{fig/crest_fullcolour.pdf}\\[1.5cm]
+    \LARGE September 2012
+    
+  \end{center}
+\end{titlepage}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\renewcommand{\contentsname}{Table of Contents}
+
+\tableofcontents
+
+\setcounter{secnumdepth}{-3}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\include{Acknowledgements}
+\include{Abstract}
+
+\setcounter{secnumdepth}{2}
+
+\pagenumbering{arabic}
+
+\include{Introduction}
+\include{Literature_Review}
+\include{Design}
+\include{Implementation}
+\include{Results}
+\include{Conclusion}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\include{Bib}
+\include{Appendix}
+
+\end{document}

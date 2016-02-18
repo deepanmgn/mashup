@@ -1,0 +1,49 @@
+\chapter{Introduction}
+\section{Motivation}
+    The World Wide Web is the main source of information nowadays. Today, there exists a great demand for getting the exact information, which is embedded across millions of web pages spread across the internet \cite{1}. Here, mashup applications come in handy.
+     
+A Mashup is a web page or application that consolidates data and functionality from one or more different sources and provides a new kind of service \cite{2}. Its main features include gathering data, processing it and providing visually enhanced information. This field is gaining increased attention and is extensively studied.
+
+There are several advantages in using mashup applications rather than simple web apps. For instance, mashups can organize and present the data faster than accessing it manually from different web sites. They can also provide a user friendly interface with easy data manipulation as the prime purpose for the users.
+
+Mashups range from simply integrating data from different sources, to providing new services. Mashups harness the power of Web 2.0 applications in order to provide a more diverse user-centric experience. Semantic mashups are our focus of study due to the fact that the extracted data can be semantically annotated to make it more valuable and informative since their primary goal is to add meaning to the data \cite{1}.
+
+Mashups can be used in various kinds of applications. For example, the first popular mashup website called housingmaps.com gathered available housing rent data from real estate websites and mapped those to locations using Google maps, so that the user is able to check houses available for rent visually. Several features, like real-time updates, were provided to ensure the correctness of data changes. Another common Web 2.0 feature is sharing the new found information via Facebook or twitter, which acts as a user contributed information.
+
+At present, there are many kinds of mashups applications available on the internet. They all have different design approaches. Some are designed solely using predefined tools like the widgets of Yahoo pipes \cite{25} or the Microsoft Popfly \cite{26}. But mainly, mashups are designed by developers with programming expertise and these designed mashups offer better functionality than the ones created using widgets. Most mashups have different ways of gathering data and provide a new service by allowing the user to process that data to provide meaningful information.
+
+Our motivation is to design a semantic mashup with the use of a focused web scraper. This can scrape relevant data of a topic of interest and append them with semantic annotations to display information with meaningful value. Web crawlers and web scrapers are mainly used by search engines for searching and displaying hyperlinks to the relevant web pages. Using a focused scraper for a particular website and scraping bits of data from it can be a useful and unique approach for data gathering.
+
+\section{Scope of project}
+Mashups relate to a vast area of research and our scope is limited to the web scraping techniques involved and how they can help in assisting the semantic mashup application. The main task is to extract semantic data from different web pages and collate them in an organized way.
+
+In answering the need for an easier access to the required data, the first aim of this project is to design and implement a focused scraper for multiple websites. It will be able to focus on specific topics of interest, which in our case are restaurants of different cuisines. The scraper should be able to scrape the necessary web pages of a particular restaurant and gather all the data into a single place.
+
+Normally, all web pages are described using HTML markup tags. Its quite a challenge to deal with structured and unstructured web pages spanning the internet. Here is where Python’s external libraries are useful. Several libraries like beautifulsoup \cite{5} and mechanize \cite{6} have been defined and are used in this thesis. These have specific functions that include parsing standard HTML markup tags and are suitable to accomplish our tasks and hence the Python programming language was used.
+
+Once we have the extracted data, the next step in the project is to present the data semantically i.e. add meaning to the data to make it more informative. This core task is defined in \cite{1} which adds metadata to the information and increases its value. Suppose for instance, for a restaurant, the information of interest are its reviews, statistics, health ratings. In our case, these are collated from multiple different sources. All this information can be collated into a specific portfolio for that restaurant and users can judge its value and can decide whether to visit the restaurant or not. Predefined semantic annotations can be set such that when new restaurants data is available, they can be easily appended and categorized.
+
+This semantic mashup can then be customizable, such that new restaurant details can be added at ease with predefined annotations. In particular, this project focusses on the different ways of extracting the data from the web sources and providing the various annotations for the data for clustering and grouping it in semantically relevant ways.
+
+\section{Objectives}
+The objectives of the dissertation are as follows:
+
+\begin{enumerate}
+\item To design a focused scraper that can extract data from web pages of varying formats.
+\item To provide semantic markup and organize the extracted data in order to make it more meaningful, thus adding semantic data.
+\end{enumerate}
+
+Experimental results will be analyzed and discussed with a suitable case study.
+
+\section{Overview of dissertation}
+The rest of the dissertation is structured as follows:
+
+Chapter 2 provides a literature review which is an overview of related work in the area of mashups and the challenges being addressed. This chapter provides further details regarding the types, design approaches and the use of web scrapers and crawlers.
+
+Chapter 3 describes the methodology used. We illustrate the design process of the focused scraper for scraping restaurant websites. Then we describe the approaches for web scraping and details on the working of the scraping program.
+
+Chapter 4 details the implementation of this crawler and execution of it using various queries on the specified web pages. The approach is tested by exploring the effectiveness of the program and if it is providing the appropriate results. Finally, further evaluations are conducted via a user survey.
+
+In chapter 5, we report an analysis of the obtained results and the limitations and difficulties encountered. We also provide a discussion of the results and compare them via a suitable case study.
+
+The last chapter concludes the thesis with directions for potential future work and a summary of the work done.

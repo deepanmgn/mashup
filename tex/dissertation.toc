@@ -1,0 +1,49 @@
+\contentsline {chapter}{Table of Contents}{i}{section*.1}
+\contentsline {chapter}{List of Figures}{iv}{section*.3}
+\contentsline {chapter}{Acknowledgements}{v}{chapter*.5}
+\contentsline {chapter}{Abstract}{vi}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.8}
+\contentsline {section}{\numberline {1.2}Scope of project}{2}{section.9}
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.10}
+\contentsline {section}{\numberline {1.4}Overview of dissertation}{3}{section.13}
+\contentsline {chapter}{\numberline {2}Literature review}{5}{chapter.14}
+\contentsline {section}{\numberline {2.1}Research on web Mashups}{5}{section.15}
+\contentsline {subsection}{\numberline {2.1.1}Mashup creation}{6}{subsection.19}
+\contentsline {subsection}{\numberline {2.1.2}Mashup examples}{6}{subsection.20}
+\contentsline {section}{\numberline {2.2}Mashup types}{7}{section.21}
+\contentsline {section}{\numberline {2.3}Approaches to mashup development}{8}{section.23}
+\contentsline {subsection}{\numberline {2.3.1}Widget based tools}{8}{subsection.24}
+\contentsline {subsection}{\numberline {2.3.2} Web technologies}{9}{subsection.25}
+\contentsline {subsection}{\numberline {2.3.3}APIs and web services}{10}{subsection.26}
+\contentsline {subsection}{\numberline {2.3.4}Screen scraping}{10}{subsection.27}
+\contentsline {section}{\numberline {2.4}Problems with mashups}{11}{section.28}
+\contentsline {section}{\numberline {2.5}Web scrapers vs web crawlers}{11}{section.29}
+\contentsline {chapter}{\numberline {3}Design}{12}{chapter.30}
+\contentsline {section}{\numberline {3.1}Scraping techniques}{12}{section.31}
+\contentsline {subsection}{\numberline {3.1.1}Using regular expressions}{12}{subsection.32}
+\contentsline {subsection}{\numberline {3.1.2}Using DOM parsing}{13}{subsection.33}
+\contentsline {subsection}{\numberline {3.1.3}Web Robot Programming}{13}{subsection.34}
+\contentsline {section}{\numberline {3.2}Content Sources}{13}{section.41}
+\contentsline {section}{\numberline {3.3}Mashup User Interface}{15}{section.44}
+\contentsline {section}{\numberline {3.4}Scraping program}{16}{section.47}
+\contentsline {subsection}{\numberline {3.4.1}Architecture}{17}{subsection.52}
+\contentsline {chapter}{\numberline {4}Implementation and Testing}{21}{chapter.65}
+\contentsline {section}{\numberline {4.1}Implementation}{21}{section.66}
+\contentsline {section}{\numberline {4.2}Testing}{22}{section.67}
+\contentsline {section}{\numberline {4.3}Evaluation}{23}{section.70}
+\contentsline {subsection}{\numberline {4.3.1}User 1}{23}{subsection.71}
+\contentsline {subsection}{\numberline {4.3.2}User 2}{24}{subsection.72}
+\contentsline {subsection}{\numberline {4.3.3}User 3}{24}{subsection.73}
+\contentsline {subsection}{\numberline {4.3.4}User 4}{25}{subsection.74}
+\contentsline {subsection}{\numberline {4.3.5}User 5}{25}{subsection.75}
+\contentsline {chapter}{\numberline {5}Results and Discussion}{26}{chapter.76}
+\contentsline {section}{\numberline {5.1}Results}{26}{section.77}
+\contentsline {section}{\numberline {5.2}Limitations and difficulties}{27}{section.78}
+\contentsline {chapter}{\numberline {6}Conclusion}{28}{chapter.79}
+\contentsline {section}{\numberline {6.1}Future work}{28}{section.80}
+\contentsline {section}{\numberline {6.2}Conclusion}{29}{section.81}
+\contentsline {chapter}{Bibliography}{30}{section*.82}
+\contentsline {chapter}{\numberline {A}Software used}{32}{appendix.84}
+\contentsline {chapter}{\numberline {B}Code Listing -- main.py}{33}{appendix.85}
+\contentsline {chapter}{\numberline {C}Code Listing -- restaurant\_sites.py}{37}{appendix.196}
