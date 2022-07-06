@@ -21,7 +21,7 @@ docutils==0.11
 duplicity==0.6.23
 gunicorn==19.4.5
 gyp==0.1
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.8
 itsdangerous==0.24
 lockfile==0.8
